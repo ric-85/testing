@@ -1,0 +1,100 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: beige;
+    border: 6px solid cornflowerblue;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px Solid #f8cdcd;
+
+    font-size: 40px;
+    font-weight: bold; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Colored tiles */
+
+.x2 {
+    background-color: red;
+    color: white;
+}
+
+.x4 {
+    background-color: rgb(156, 43, 43);
+    color: white;
+}
+
+.x8 {
+    background-color: rgb(228, 154, 154);
+    color: white;
+}
+
+.x16 {
+    background-color: rgb(182, 97, 40);
+    color: white;
+}
+
+.x32 {
+    background-color: rgb(207, 110, 20);
+    color: white;
+}
+
+.x64 {
+    background-color: rgb(241, 206, 7);
+    color: white;
+}
+
+.x128 {
+    background-color: rgb(219, 216, 5);
+    color: white;
+}
+
+.x256 {
+    background-color: rgb(100, 228, 21);
+    color: black;
+}
+
+.x512 {
+    background-color: rgb(77, 192, 32);
+    color: black;
+}
+
+.x1024 {
+    background-color: rgb(14, 80, 1);
+    color: black;
+}
+
+.x2028 {
+    background-color: rgb(53, 96, 109);
+    color: black;
+}
+
+.x4096 {
+    background-color: rgb(30, 189, 189);
+    color: black;
+}
+
+.x8192 {
+    background-color: rgb(18, 2, 247);
+    color: black;
+}
